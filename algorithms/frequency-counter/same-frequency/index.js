@@ -33,6 +33,6 @@
         return true
     }
 
-    console.assert(sameFrequency(182, 281) === true, 'Shoud be the same frequency')
-    console.assert(sameFrequency(34, 14) === false, 'Shoud not be the same frequency')
+    console.assert(sameFrequency(182, 281) === true, 'should return true')
+    console.assert(sameFrequency(34, 14) === false, 'should return false')
 })()
